@@ -866,3 +866,37 @@ button {
 blockquote {
   font-weight: 600;
 }
+/* BALANCED TYPOGRAPHY */
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: #49352f;
+}
+
+p, span, label, li {
+  font-weight: 700;
+  color: #49352f;
+  -webkit-text-stroke: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  color: #573a36;
+  -webkit-text-stroke: 0;
+}
+
+strong, b, button {
+  font-weight: 800;
+}
+
+small, .eyebrow, .mini-label {
+  font-weight: 700;
+  color: #76594d;
+  letter-spacing: 0.5px;
+}
+
+blockquote {
+  font-weight: 600;
+  color: #5b443a;
+}
