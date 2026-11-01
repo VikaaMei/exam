@@ -829,3 +829,40 @@ button {
   font-weight: 800;
   letter-spacing: 1px;
 }
+/* MAKE TEXT BOLDER */
+body {
+  font-weight: 700;
+  color: #49352f;
+}
+
+p, span, label, small, li {
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  -webkit-text-stroke: 0.4px currentColor;
+}
+
+.cover-meta strong,
+.id-details p,
+.grade-row strong,
+.grade-row small {
+  font-weight: 800;
+}
+
+.eyebrow,
+.serial,
+.mini-label,
+.final-foot {
+  font-weight: 900;
+}
+
+button {
+  font-weight: 900;
+  -webkit-text-stroke: 0.2px currentColor;
+}
+
+blockquote {
+  font-weight: 600;
+}
