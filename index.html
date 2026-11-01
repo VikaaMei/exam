@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Exam ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- COVER -->
+  <main class="cover" id="cover">
+    <div class="cover-inner">
+      <p class="small-title">THE LITTLE BOOK OF US</p>
+      <div class="cover-line"></div>
+      <h1>Final<br><span>Exam</span></h1>
+      <div class="cover-details">
+        <p><b>Subject</b><span>Love & Relationship</span></p>
+        <p><b>Time</b><span>Forever</span></p>
+        <p><b>Exam No.</b><span>001</span></p>
+      </div>
+      <button id="flipBtn" class="main-btn">FLIP THE PAGE ↗</button>
+      <p class="cover-footer">A special examination for someone special</p>
+    </div>
+  </main>
+
+  <!-- CONTENT -->
+  <main id="content" class="content hidden">
+
+    <!-- ID CARD -->
+    <section class="section pop">
+      <p class="eyebrow">01 — IDENTIFICATION</p>
+      <h2>Student ID Card</h2>
+
+      <div class="id-card">
+        <div class="id-top">
+          <span>STUDENT CARD</span>
+          <span>NO. 001</span>
+        </div>
+        <img src="assets/01.jpeg" alt="Student photo" class="id-photo">
+        <div class="id-info">
+          <p class="field-label">NAME</p>
+          <h3>ERICA ABHIRA PUTRI NATASYA</h3>
+          <p class="field-label">DEPARTMENT</p>
+          <p>Department of My Heart</p>
+          <p class="field-label">STATUS</p>
+          <p>Officially Loved</p>
+        </div>
+        <div class="id-bottom">VALID FOR A LIFETIME</div>
+      </div>
+    </section>
+
+    <!-- EXAM -->
+    <section class="section pop">
+      <p class="eyebrow">02 — WRITTEN EXAMINATION</p>
+      <h2>Let's Test Your Memory</h2>
+      <p class="description">Answer every question carefully. No cheating, please.</p>
+
+      <div id="questions"></div>
+
+      <button id="submitBtn" class="main-btn submit-btn">SUBMIT ANSWERS</button>
+      <div id="stamp" class="stamp hidden">
+        <span>100</span>
+        <small>PERFECT SCORE!</small>
+      </div>
+    </section>
+
+    <!-- REPORT CARD -->
+    <section class="section pop">
+      <p class="eyebrow">03 — ACADEMIC RECORD</p>
+      <h2>Report Card</h2>
+      <p class="description">Your performance throughout our little story.</p>
+
+      <div class="report-card">
+        <div class="report-heading">
+          <span>SUBJECT</span>
+          <span>GRADE</span>
+        </div>
+
+        <div class="grade-row">
+          <div><b>Missing Me</b><small>For remembering me, even from afar.</small></div>
+          <strong>A+</strong>
+        </div>
+        <div class="grade-row">
+          <div><b>Attention</b><small>For noticing the little things.</small></div>
+          <strong>A+</strong>
+        </div>
+        <div class="grade-row">
+          <div><b>Patience</b><small>For staying through every season.</small></div>
+          <strong>A+</strong>
+        </div>
+        <div class="grade-row">
+          <div><b>Affection</b><small>For making ordinary days special.</small></div>
+          <strong>A+</strong>
+        </div>
+        <div class="grade-row">
+          <div><b>Understanding</b><small>For learning each other every day.</small></div>
+          <strong>A+</strong>
+        </div>
+        <div class="report-footer">FINAL RESULT: EXCELLENT ♡</div>
+      </div>
+    </section>
+
+    <!-- TEACHER NOTE -->
+    <section class="section pop">
+      <p class="eyebrow">04 — TEACHER'S NOTE</p>
+      <h2>A Little Message</h2>
+
+      <div class="letter">
+        <p class="letter-date">A note for you, dear student.</p>
+        <p>
+          Untuk Keskasih,<br><br>
+          Sayang, di antara hiruk pikuk dunia, kehadiranmu adalah ketenangan yang paling aku syukuri. Thank you for loving me so gracefully and sincerely. Bersamamu, aku belajar arti mencintai dengan lebih dewasa dan tenang. You are not just my love, you are my greatest blessing. Setiap hari I'm spending with you make me want to be better person. I am truly grateful to walk this journey with you. I love you, endlessly and infinity.<br><br>
+          Thank you for being part of my story. </p>
+        <p class="signature">With love,<br><b>Your Teacher ♡</b></p>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section class="section pop">
+      <p class="eyebrow">05 — DOCUMENTATION</p>
+      <h2>More of Us</h2>
+      <p class="description">A few moments worth keeping.</p>
+
+      <div class="photo-gallery">
+        <div class="photo-frame">
+          <img src="assets/02.jpeg" alt="Memory 1">
+          <small>little moment no. 01</small>
+        </div>
+        <div class="photo-frame">
+          <img src="assets/03.jpeg" alt="Memory 2">
+          <small>little moment no. 02</small>
+        </div>
+        <div class="photo-frame">
+          <img src="assets/05.jpeg" alt="Memory 3">
+          <small>little moment no. 03</small>
+        </div>
+        <div class="photo-frame">
+          <img src="assets/06.jpeg" alt="Memory 4">
+          <small>little moment no. 04</small>
+        </div>
+      </div>
+      <p class="swipe-hint">← swipe to see more →</p>
+    </section>
+
+    <!-- FINAL -->
+    <section class="section final-page pop">
+      <p class="eyebrow">06 — THE END</p>
+      <div class="final-decoration">✳</div>
+      <h2>See u in class<br><i>again, with Meilen.</i></h2>
+      <p class="final-text">
+        This examination may be over,<br>
+        but our story is still being written.
+      </p>
+      <div class="final-line"></div>
+      <p class="final-footer">END OF EXAMINATION · 001</p>
+      <button id="retryBtn" class="main-btn retry-btn">RETRY ↻</button>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
