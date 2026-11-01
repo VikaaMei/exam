@@ -803,3 +803,29 @@ body {
   border-color: #a56e65;
   color: #a56e65;
 }
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #49352f;
+}
+
+h1, h2, h3, .cover h1 {
+  font-family: 'DM Serif Display', serif;
+  color: #573a36;
+}
+
+p, span, label, small, button {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.7;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+button {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
